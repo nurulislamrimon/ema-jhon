@@ -1,0 +1,52 @@
+.cart-review-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.carted-product {
+    border: 1px solid black;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 2fr 8fr 2fr;
+    align-items: center;
+    width: 500px;
+    margin: 10px auto;
+}
+
+.carted-product h3,
+p {
+    margin: unset;
+}
+
+.carted-product button {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.carted-product button svg {
+    font-size: x-large;
+}
+
+.cart button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+}
+
+.cart a {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(28, 43, 248);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: large;
+    text-decoration: none;
+}
